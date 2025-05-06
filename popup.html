@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Auto Set Google to Edge</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 300px;
+      padding: 15px;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    h2 {
+      color: #1a73e8;
+      font-size: 18px;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    p {
+      color: #5f6368;
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 1.5;
+    }
+    .btn-change {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .btn-change:hover {
+      background-color: #0d5bdd;
+    }
+    .logo {
+      width: 80px;
+      height: 80px;
+      margin-bottom: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="images/icon128.png" alt="Google Logo" class="logo">
+    <h2>Search Engine Check</h2>
+    <p>Your default search engine might not be set to Google. Click below to open search engine settings and set Google as your default.</p>
+    <button id="changeSearchEngine" class="btn-change">Change to Google</button>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html> 
